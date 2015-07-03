@@ -1,0 +1,51 @@
+{
+    "name": "inradius/yii-skeleton-app",
+    "description": "A basic Yii Framework skeleton application",
+    "authors": [
+        {
+            "name": "Travis Stroud",
+            "email": "travis@travisstroud.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "version": "3.1.1",
+                "name": "twbs/bootstrap",
+                "source": {
+                    "url": "https://github.com/twbs/bootstrap.git",
+                    "type": "git",
+                    "reference": "master"
+                },
+                "dist": {
+                    "url": "https://github.com/twbs/bootstrap/zipball/master",
+                    "type": "zip"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "version": "4.0.3",
+                "name": "FortAwesome/Font-Awesome",
+                "source": {
+                    "url": "https://github.com/FortAwesome/Font-Awesome.git",
+                    "type": "git",
+                    "reference": "master"
+                },
+                "dist": {
+                    "url": "https://github.com/FortAwesome/Font-Awesome/zipball/master",
+                    "type": "zip"
+                }
+            }
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.2",
+        "yiisoft/yii": "1.1.*",
+        "twbs/bootstrap": "3.1.*",
+        "FortAwesome/Font-Awesome": "4.0.*"
+    }
+}
